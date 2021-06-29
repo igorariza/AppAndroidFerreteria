@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">PISKY</string>
+    <string name="tuemail">Tu email</string>
+    <string name="psw">Contraseña</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="olvide">Olvidé mi constraseña</string>
+    <string name="olvidecontrasena">¿Olvidaste tu contraseña?</string>
+    <string name="ingresaaqui">Ingresa aquí</string>
+    <string name="crearcuenta">¿Aún no tienes cuenta?</string>
+    <string name="registrate">REGISTRATE</string>
+    <string name="loading">¡Por favor espera!</string>
+    <string name="tab_text_1">Videos</string>
+    <string name="tab_text_2">Audios</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Ingreso Fallido, Verifique su usuario y contraseña</string>
+    <string name="unete">¡Realiza la cotización!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="queesfesi">¿Qué es FESI?</string>
+    <string name="testimonios">Escucha los Testimonios!!</string>
+    <string name="educacioncultura">Educación y Cultura</string>
+    <string name="capacitater">Capacítate para el empleo</string>
+    <string name="empleo"></string>
+    <string name="salud">Salud</string>
+    <string name="testimonio">Testimonios</string>
+    <string name="ambientalista">Grupo Animalista</string>
+    <string name="registrarte">Regístrate</string>
+    <string name="certificate">Certifícate</string>
+    <string name="ingresar">Inicia Sesión</string>
+    <string name="conocenos">Conocenos un poco más: </string>
+    <string name="slogan">Trabajando por una sociedad \n más Justa, Participativa e Incluyente. \n #DesicionesConAcciones</string>
+
+
+    <string name="facebook_app_id">264264161085773</string>
+    <string name="fb_login_protocol_scheme">fb264264161085773</string>
+
+
+    <string name="welcome">Bienvenido</string>
+    <string name="cancel_login">Se canceló la operación</string>
+    <string name="error_login">Ocurrió un error al ingresar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="firebase_error_login">Error al iniciar sesión en Firebase</string>
+    <string name="action_logout"> Log Out</string>
+
+    <string name="tools_text_account_information_username">Sotti</string>
+    <string name="tools_text_account_information_email">sotti@sottocorp.com</string>
+
+    <!-- Opciones del Menú Seguidor -->
+    <string name="cursos">Capacítate Con FESI</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="certificados">Mis Certificados</string>
+    <string name="bolsa">Bolsa de Empleo</string>
+    <string name="historia">Nuestra Historia</string>
+
+    <string name="titulo_tab_tuscursos">Mis Cursos</string>
+    <string name="titulo_tab_cursos">Cursos</string>
+
+    <!-- Horizonte Institucional -->
+    <string name="mision"><![CDATA[<h1 style="text-align: center;">
+            <span style="color: #ffffff;">
+            <strong>Misi&oacute;n</strong></span></h1>
+            <p style="text-align: justify; font-size:20px;"><br />
+            <span style="color: #ffffff;">
+            Contribuir al desarrollo social a trav&eacute;s de la educaci&oacute;n, recreaci&oacute;n, generaci&oacute;n de empleo, vivienda y ambiente.
+            Facilitando oportunidades para desarrollar habilidades de ser participes de la construcci&oacute;n de un entorno imparcial y razonable.
+            </span>
+            </p>]]></string>
+
+    <string name="vision"><![CDATA[<h1 style="text-align: center;"><span style="color: #ffffff;"><strong>Visi&oacute;n</strong></span></h1>
+<blockquote>
+<p style="text-align: justify;"><br /><span style="color: #ffffff;">La fundaci&oacute;n en el 2030 ser&aacute; lider a nivel local, departamental y nacional, con su amplia facultad de convocar, apoyada en sel sentido y desarrollo social, en la formulaci&oacute;n, gesti&oacute;n, ejecuci&oacute;n participativa de proyectos, junto al conocimiento y alianzas. Bajo los criterios de transparencia, equidad, respeto y mejoramiento continuo.</span></p>
+</blockquote>]]></string>
+    <string name="politicas">Al registrar sus datos, confirmas que aceptas nuestras Condiciones de uso. Gestionaremos la información tal y como se describe en la politica de privacidad.</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Atras</string>
+    <string name="start">Start</string>
+    <string name="txt_checkbox">No volver a mostrar estas imágenes :)</string>
+    <string name="siginemail">Registrarse con email</string>
+    <string name="Vamosya">Vamos ya!!</string>
+    <string name="txt_slides">Bienvenido!! :)</string>
+    <string name="txtLogin_facebook">Facebbook</string>
+    <string name="nombre_curso_nuevo">Curso Nuevo</string>
+    <string name="cantidad_curso">Cantidad Cursos</string>
+    <string name="nombre_curso">Nombre Curso</string>
+
+
+</resources>

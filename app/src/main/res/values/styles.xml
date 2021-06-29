@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorNew</item>
+        <item name="colorPrimaryDark">@color/colorNew2</item>
+        <item name="colorAccent">@color/colorAccentt</item>
+    </style>
+
+    <style name="AppTheme.font">
+        <item name="android:fontFamily">@font/eproundie</item>
+    </style>
+
+    <style name="AppTheme.txt_slide" parent="AppTheme.font">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/list_item_title</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+        <item name="colorPrimaryDark">@color/colorAccentTransparent</item>
+    </style>
+
+    <style name="HomeTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textSize">@dimen/app_compat_button_text_size</item>
+        <item name="android:textColorHint">@color/blano</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/blano</item>
+    </style>
+
+    <style name="TextInputLayout" parent="AppTheme.font">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorSecondary">@color/colorNew2</item>
+    </style>
+
+    <style name="AppTheme.MyButton" parent="AppTheme.font">
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:textSize">@dimen/app_compat_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blano</item>
+        <item name="android:padding">@dimen/padding_my_button_style</item>
+        <item name="android:paddingTop">@dimen/paddingtop_my_button_style</item>
+        <item name="android:layout_marginTop">@dimen/padding_my_button_style</item>
+        <item name="android:layout_marginBottom">@dimen/padding_my_button_style</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.MyTextCrear" parent="AppTheme.font">
+        <item name="android:textSize">@dimen/text_size_quienes_somos</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+    </style>
+
+    <style name="AppTheme.MyTextRegistrar" parent="AppTheme.font">
+        <item name="android:textSize">@dimen/app_compat_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+    </style>
+
+    <style name="AppTheme.MyTextRegistrar2" parent="AppTheme.font">
+        <item name="android:textSize">@dimen/text_size_quienes_somos</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyToolbar" parent="AppTheme.font">
+        <item name="navigationIcon">@drawable/back_white</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="AppTheme.Title" parent="AppTheme.font">
+        <item name="android:textSize">@dimen/size_title_style</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearence.App.TextInputLayout" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/colorNew2</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="FacebookLoginButton" parent="AppTheme.font">
+        <item name="android:textSize">@dimen/smallTxtSize</item>
+        <item name="android:layout_marginTop">@dimen/fbtop_my_button_style</item>
+        <item name="android:layout_marginBottom">@dimen/fbtop_my_button_style</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.LoginActionbar" parent="AppTheme.NoActionBar"></style>
+
+    <!-- Text -->
+    <style name="Body1" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Body2" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Body1.White" />
+
+    <style name="Body2.White" />
+
+    <style name="Body2.Black" />
+
+    <style name="Body1.White.Primary">
+        <item name="android:textColor">@color/text_white_primary</item>
+    </style>
+
+    <style name="Body2.White.Primary">
+        <item name="android:textColor">@color/text_white_primary</item>
+    </style>
+
+    <style name="Theme.JanusShop" parent="Base.AppTheme" />
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorNew2</item>
+        <item name="colorPrimaryDark">@color/colorNew2</item>
+        <item name="colorAccent">@color/colorNew2</item>
+    </style>
+    <!-- /////////// -->
+
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_radius">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_border_width">1dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_height">3dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_caret_width">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_padding">6dp</dimen>
+    <dimen name="com_facebook_likeboxcountview_text_size">11sp</dimen>
+    <dimen name="com_facebook_likeview_edge_padding">2dp</dimen>
+    <dimen name="com_facebook_likeview_internal_padding">6dp</dimen>
+    <dimen name="com_facebook_likeview_text_size">11sp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_share_button_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_left">12dp</dimen>
+    <dimen name="com_facebook_share_button_padding_right">16dp</dimen>
+    <dimen name="com_facebook_share_button_padding_top">12dp</dimen>
+    <dimen name="com_facebook_share_button_text_size">16sp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="navigation_drawer_header_margin">16dp</dimen>
+
+    <dimen name="paddingPaginaPricipal">86dp</dimen>
+    <dimen name="paddingtopservicios">150dp</dimen>
+    <dimen name="smallTxtSize">10dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="txtBotones">20sp</dimen>
+    <dimen name="txtTitulos">25sp</dimen>
+    <dimen name="txtitemservicio">10sp</dimen>
+    <dimen name="txtitemservicioseleccionado">10sp</dimen>
+    <dimen name="ucrop_default_crop_frame_stoke_width">1dp</dimen>
+    <dimen name="ucrop_default_crop_grid_stoke_width">1dp</dimen>
+    <dimen name="ucrop_default_crop_rect_corner_touch_area_line_length">10dp</dimen>
+    <dimen name="ucrop_default_crop_rect_corner_touch_threshold">30dp</dimen>
+    <dimen name="ucrop_default_crop_rect_min_size">100dp</dimen>
+    <dimen name="ucrop_height_crop_aspect_ratio_text">40dp</dimen>
+    <dimen name="ucrop_height_divider_shadow">3dp</dimen>
+    <dimen name="ucrop_height_horizontal_wheel_progress_line">20dp</dimen>
+    <dimen name="ucrop_height_wrapper_controls">64dp</dimen>
+    <dimen name="ucrop_height_wrapper_states">72dp</dimen>
+    <dimen name="ucrop_margin_horizontal_wheel_progress_line">10dp</dimen>
+    <dimen name="ucrop_margit_top_widget_text">10sp</dimen>
+    <dimen name="ucrop_padding_crop_frame">16dp</dimen>
+    <dimen name="ucrop_progress_size">30dp</dimen>
+    <dimen name="ucrop_size_dot_scale_text_view">8dp</dimen>
+    <dimen name="ucrop_size_wrapper_rotate_button">50dp</dimen>
+    <dimen name="ucrop_text_size_widget_text">13sp</dimen>
+    <dimen name="ucrop_width_horizontal_wheel_progress_line">2dp</dimen>
+    <dimen name="appbar_padding_top">8.0dip</dimen>
+    <!-- Navigation Drawer -->
+    <dimen name="navigation_drawer_max_width">280dp</dimen>
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_56">56dp</dimen>
+    <dimen name="vertical_keyline_first">16dp</dimen>
+    <dimen name="nav_drawer_profile_image_size">64dp</dimen>
+    <dimen name="elevation_app_bar">4dp</dimen>
+    <dimen name="elevation_nav_drawer">16dp</dimen>
+    <dimen name="header_left_padding">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+    <dimen name="perfil_image_size">64dp</dimen>
+    <dimen name="margin_top_linear_home">10dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="divider_space_size">5dp</dimen>
+    <dimen name="progress_indicator_count_height">5dp</dimen>
+
+    <!--Quienes Somos  -->
+    <dimen name="margin_top_quienes_somos">60dp</dimen>
+    <dimen name="text_size_quienes_somos">15sp</dimen>
+
+    <!-- Activity Datos -->
+    <dimen name="paddingLeft">24dp</dimen>
+    <dimen name="paddingRight">24dp</dimen>
+    <dimen name="paddingTop">10dp</dimen>
+    <dimen name="paddingenteBotones">20dp</dimen>
+    <dimen name="text_size_activity_datos">12sp</dimen>
+    <dimen name="text_input_layout_padding_top">10dp</dimen>
+    <dimen name="app_compat_button_text_size">20sp</dimen>
+    <dimen name="elevation_card">4dp</dimen>
+
+    <!-- Activity Home -->
+    <dimen name="img_width_height">130dp</dimen>
+    <dimen name="margin_top_home">10dp</dimen>
+    <dimen name="margin_top_home_button">5dp</dimen>
+    <dimen name="margin_top_home_pading_button">15dp</dimen>
+    <dimen name="app_compat_button_text_size_home">25sp</dimen>
+    <dimen name="liner_height_home">50dp</dimen>
+    <dimen name="padding_text_button_linear">4dp</dimen>
+    <dimen name="img_button_linear">15dp</dimen>
+
+    <!-- Redes Sociales -->
+    <dimen name="padding_Top_redes">40dp</dimen>
+    <dimen name="text_size_activity_redes">13sp</dimen>
+
+    <!-- Activity Main -->
+    <dimen name="padding_Top_main">40dp</dimen>
+    <dimen name="img_width_height_main">100dp</dimen>
+    <dimen name="text_input_layout_padding_top_main">20dp</dimen>
+    <dimen name="text_input_layout_padding_botom_main">20dp</dimen>
+    <dimen name="elevation_main">10dp</dimen>
+    <dimen name="padding_img">10dp</dimen>
+    <dimen name="paddingtop_linear">10dp</dimen>
+
+    <!-- Nav Header -->
+    <dimen name="nav_header">16dp</dimen>
+
+    <!-- mi Cuenta -->
+    <dimen name="img_encabezado">120dp</dimen>
+    <dimen name="txt_mensaje">18sp</dimen>
+    <dimen name="pdtop_datos_primero">20dp</dimen>
+    <dimen name="width_cardview">370dp</dimen>
+    <dimen name="elevation_cardview">4dp</dimen>
+    <dimen name="radius_cardview">4dp</dimen>
+    <dimen name="layout_marginTop_cardview">5dp</dimen>
+    <dimen name="text_size_activity_cuenta">22sp</dimen>
+    <dimen name="padding_editext">8dp</dimen>
+    <dimen name="drawablePadding">10dp</dimen>
+    <dimen name="layout_marginBottom_linearsesion">15dp</dimen>
+    <dimen name="paddingBottom_linear">10dp</dimen>
+    <dimen name="paddingLeft_linear_genero">50dp</dimen>
+    <dimen name="btnCerrarSesion_width">300dp</dimen>
+    <dimen name="btnCerrarSesion_marginTop">30dp</dimen>
+    <dimen name="btnCerrarSesion_marginBottom">20dp</dimen>
+
+    <!-- Styles -->
+    <dimen name="padding_my_button_style">5dp</dimen>
+    <dimen name="paddingtop_my_button_style">15dp</dimen>
+    <dimen name="fbtop_my_button_style">10dp</dimen>
+    <dimen name="size_title_style">24sp</dimen>
+
+    <dimen name="padding_checkbox">15</dimen>
+    <dimen name="paddingredes">5dp</dimen>
+    <dimen name="paddingTop_registro">70dp</dimen>
+    <dimen name="paddingTopQuienesSomos">60dp</dimen>
+    <dimen name="paddingTopTestimonios">60dp</dimen>
+    <dimen name="img_width_height_datos">95dp</dimen>
+    <dimen name="paddingredesbtn">10dp</dimen>
+    <dimen name="txt_slides">22sp</dimen>
+    <dimen name="txt_top_slides">20dp</dimen>
+    <dimen name="txt_bottom_slides">20dp</dimen>
+    <dimen name="img_curso_nuevo">20dp</dimen>
+    <dimen name="padding_imgCursoNuevo">10dp</dimen>
+    <dimen name="txt_cardCurso">14sp</dimen>
+    <dimen name="sbtxt_cardCurso">13sp</dimen>
+    <dimen name="txtCardCarrera">14sp</dimen>
+    <dimen name="margenes_fab">10dp</dimen>
+    <dimen name="toprecyclerCotizacion">10dp</dimen>
+
+</resources>

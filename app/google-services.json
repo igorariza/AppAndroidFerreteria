@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1041732216506",
+    "firebase_url": "https://pisky-8f1df.firebaseio.com",
+    "project_id": "pisky-8f1df",
+    "storage_bucket": "pisky-8f1df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041732216506:android:4c4364cb5b8c2b9c",
+        "android_client_info": {
+          "package_name": "com.pisky.pisky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041732216506-st79db8ac1cbbqja7vputj1co0m480ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pisky.pisky",
+            "certificate_hash": "e56b7452e7a04fe3144ec933b6d52fab31c1a9c3"
+          }
+        },
+        {
+          "client_id": "1041732216506-pgdgsui9aio67r4kcb1no5t5ah3dldum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfOM8zl3Re8xfyTE5sR4nVTdIRe6pBPpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041732216506-pgdgsui9aio67r4kcb1no5t5ah3dldum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

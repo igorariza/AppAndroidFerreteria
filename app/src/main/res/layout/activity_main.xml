@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNew2"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingLeft"
+    android:paddingTop="@dimen/paddingTop_registro"
+    android:paddingRight="@dimen/paddingRight"
+    tools:context=".MainActivity">
+
+    <requestFocus />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_Top_redes"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/img_width_height_main"
+            android:layout_height="@dimen/img_width_height_main"
+            android:layout_gravity="center"
+            android:src="@drawable/pisky"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txt_accionuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/paddingenteBotones"
+        android:fontFamily="@font/eproundie"
+        android:text="@string/siginemail"
+        android:textColor="@color/blano"
+        android:textSize="@dimen/txtTitulos" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/paddingenteBotones"
+        android:layout_marginBottom="@dimen/text_input_layout_padding_top"
+        android:textColorHint="@color/blano"
+        android:theme="@style/TextLabel"
+        app:hintTextAppearance="@style/TextInputLayout">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tuemail"
+            android:inputType="textEmailAddress"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/blano"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_input_layout_padding_top"
+        android:textColorHint="@color/blano"
+        android:theme="@style/TextLabel"
+        app:hintTextAppearance="@style/TextInputLayout"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/blano">
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/psw"
+            android:inputType="textPassword"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/blano"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_input_layout_padding_top"
+        android:background="@drawable/buttonngresar"
+        android:text="REGISTRARME"
+        android:textColor="@color/blano"
+        android:textSize="@dimen/app_compat_button_text_size"
+        android:theme="@style/AppTheme.MyButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_olvide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_input_layout_padding_top"
+        android:background="@drawable/buttonshapebordes"
+        android:fontFamily="@font/eproundie"
+        android:text="@string/olvidecontrasena"
+        android:textColor="@color/blano"
+        android:textSize="@dimen/text_size_quienes_somos" />
+
+    <TextView
+        android:id="@+id/politica"
+        style="@style/AppTheme.font"
+        android:textColor="@color/blano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_input_layout_padding_top"
+        android:layout_marginBottom="@dimen/paddingenteBotones"
+        android:text="@string/politicas"
+        android:textSize="@dimen/text_size_activity_datos" />
+
+</LinearLayout>

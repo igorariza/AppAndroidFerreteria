@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:layout_marginStart="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginEnd="3dp"
+    android:background="@color/card"
+    card_view:cardCornerRadius="6dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_carrera"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+
+        <TextView
+            android:id="@+id/primary_text"
+            android:layout_below="@+id/img_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/eproundie"
+            android:layout_marginTop="10dp"
+            android:text="Cotizacion"
+            android:textColor="@color/txt_cardCursos"
+            android:textSize="@dimen/txt_cardCurso"/>
+
+        <TextView
+            android:id="@+id/sub_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBar"
+            android:paddingLeft="10dp"
+            android:text="Estado"
+            android:textColor="@color/txt_cardCursos"
+            android:textSize="@dimen/sbtxt_cardCurso"
+            app:layout_constraintStart_toStartOf="@+id/primary_text"
+            app:layout_constraintTop_toBottomOf="@+id/primary_text" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:progress="25"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

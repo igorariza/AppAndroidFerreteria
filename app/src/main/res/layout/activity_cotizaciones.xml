@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CotizacionActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarcotizacion"
+            style="@style/MyToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/unete"
+            app:titleTextAppearance="@style/AppTheme.Title"
+            app:titleTextColor="@color/blano" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include
+        android:id="@+id/includeregistro"
+        layout="@layout/activity_cotizacion" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
